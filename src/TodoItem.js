@@ -1,6 +1,6 @@
 import React from 'react';
 import './TodoList.css';
-import 'TodoItem.css';
+import './TodoItem.css';
 import { useState } from "react";
 
 function TodoItem({ task, deleteTask, toggleCompleted, editTask }) {
